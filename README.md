@@ -1,192 +1,248 @@
-<p align="center">
-  <a href="https://opencollective.com/docz" target="_blank">
-    <img src="https://cdn-std.dprcdn.net/files/acc_649651/Q5nVhT" height="80" alt="Open Collective">
-  </a>
-  <a href="https://www.patreon.com/pedronauck" target="_blank">
-    <img src="https://cdn-std.dprcdn.net/files/acc_649651/plrSCT" height="80" alt="Patreon">
-  </a>
-</p>
+# gatsby-theme-docz
 
-<p align="center" style="margin-bottom: -20px">
-  <img src="https://cdn-std.dprcdn.net/files/acc_649651/BSPk3z">
-</p>
+![](https://cdn-std.dprcdn.net/files/acc_649651/opUCiu)
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/docz" target="_blank">
-    <img src="https://badgen.net/npm/v/docz" alt="">
-  </>
-  <a href="LICENSE.md" target="_blank">
-    <img src="https://badgen.net/badge/license/MIT/blue" alt="">
-  </a>
-  <a href="https://www.npmjs.com/package/docz" target="_blank">
-    <img src="https://badgen.net/npm/dt/docz" alt="">
-  </a>
-  <a href="http://feedback.docz.site/roadmap" target="_blank">
-    <img src="https://img.shields.io/badge/check-our%20roadmap-5362F5.svg" alt="Chat">
-  </a>
-</p>
+The official Gatsby theme for Docz.
 
-## ✅️ &nbsp; Migration Guide
-
-This documentation is for Docz [v2](https://github.com/pedronauck/docz/pull/950). Follow our [migration guide](/MIGRATION_GUIDE.md) if you haven't upgraded your project yet.
-
-## 📕 v1 docs
-
-If you're still using v1, you can find the docs [here](https://docz-v1.surge.sh).
-
-## 🎩 &nbsp; Features
-
-- 🔩 **Powered by Gatsby.** Bundling and ecosystem powered by [Gatsby](https://gatsbyjs.org).
-- 🧘 **Zero config and easy.** Don't worry about complex configurations steps.
-- ⚡️ **Blazing Fast.** Full hot reload support with webpack 4 and automatic code splitting.
-- 💅 **Easy to customize.** Create and use real customizable themes.
-- 📝 **[MDX](https://github.com/mdx-js/mdx) Based.** Write markdown enhanced by the power of components.
-- 🎛 **Pluggable.** Use plugins to manipulate and customize Docz to suit your needs.
-- 🔐 **Typescript Support.** Full support for TypeScript. Write your type definitions with no extra setup required.
-
-## 🤔 &nbsp; Why?
-
-Libraries that make development easier are appearing every day. Style guides and design systems are growing in popularity. Today, tools that allow us to get our best work done and be efficient are necessary. We shouldn't be spending too much time on tasks that should be trivial. This is why we created **Docz**.
-
-Documenting code is one of the most important and time-heavy processes when you're creating something new. A lot of time is wasted on unnecessarily attempting to build a documentation site that will match the style we want.
-
-## 👉🏻 &nbsp; More info on [our website](https://docz.site)
-
-## 🎛 &nbsp; Plugins
-
-- **[gatsby-theme-docz](https://github.com/pedronauck/docz/tree/master/core/gatsby-theme-docz)** - Use Docz as a theme for Gatsby.
-- **[netlify](https://github.com/nicholasess/docz-plugin-netlify)** - Deploy your Docz site to [Netlify](http://netlify.com/).
-- **[svg sprite loader](https://github.com/trustedhousesitters/docz-plugin-svg-sprite-loader)** - Docz plugin for SVG sprite loader.
-- **[snapshots](https://github.com/JosephConradBlack/docz-plugin-snapshots)** - A plugin for Docz that creates jest snapshots for all documented component usages.
-
-## 🗃 &nbsp; Examples
-
-- **[basic](https://github.com/pedronauck/docz/tree/master/examples/basic)** - Barebones example.
-- **[gatsby](https://github.com/pedronauck/docz/tree/master/examples/gatsby)** - Example using Docz in a Gastby project.
-- **[react native](https://github.com/pedronauck/docz/tree/master/examples/react-native)** - Using Docz in a React Native project.
-- **[styled-components](https://github.com/pedronauck/docz/tree/master/examples/styled-components)** - Using Docz with `styled-components`.
-- **[with typescript](https://github.com/pedronauck/docz/tree/master/examples/typescript)** - Using Docz with Typescript.
-- **[with flow](https://github.com/pedronauck/docz/tree/master/examples/flow)** - Using Docz with Flow.
-- **[with sass](https://github.com/pedronauck/docz-plugin-css/tree/master/examples/css-sass)** - Using Docz parsing CSS with SASS.
-- **[with less](https://github.com/pedronauck/docz-plugin-css/tree/master/examples/css-less)** - Using Docz parsing CSS with LESS.
-- **[with postcss](https://github.com/pedronauck/docz-plugin-css/tree/master/examples/css-postcss)** - Using Docz parsing CSS with PostCSS.
-- **[with stylus](https://github.com/pedronauck/docz-plugin-css/tree/master/examples/css-stylus)** - Using Docz parsing CSS with Stylus.
-
-## 🌍 &nbsp; Around the world
-
-- **[Smooth UI](https://smooth-ui.smooth-code.com/)** - Modern React UI library.
-- **[Set Protocol Docs](https://docs.setprotocol.com/)** - Documentation site of Set Protocol.
-- **[RBX](https://dfee.github.io/rbx)** - The Comprehensive Bulma UI Framework for React.
-- **[Circuit UI](https://circuit.sumup.com/#/)** - React component library for [SumUp](https://sumup.com) web apps.
-- **[Fannypack](https://fannypack.style)** - A friendly & accessible React UI Kit built with [Reakit](https://reakit.io/).
-- **[React Pixi](https://reactpixi.org/#/)** - React Fiber renderer for Pixi.
-- **[React Hotkey Tooltip](https://react-hotkey-tooltip.netlify.com/#/)** - A global Hotkey provider with built in tooltip for React.
-- **[Sajari React SDK](https://sajari-sdk-react.netlify.com/)** - Library of React Components for the Sajari.
-
-## ⚠️ &nbsp; Warning
-
-Since the release of v1 you need `react` and `react-dom` `v16.8.0` or later installed.
-
-## 📟 &nbsp; Install and Usage
-
-Getting started with **Docz** is really quick and easy.
-
-If you're starting from scratch use [create-docz-app](https://www.npmjs.com/package/create-docz-app) to create your project.
+## Installation
 
 ```sh
-npx create-docz-app my-docz-app 
-# or
-yarn create docz-app my-docz-app --example typescript
+yarn add gatsby gatsby-theme-docz react react-dom
 ```
 
-If you want to add `docz` to a codebase, then add docz using your favourite package manager:
+## Usage
 
-```bash
-$ yarn add --dev docz@next react react-dom
-
-# or
-
-$ npm install --save-dev docz@next react react-dom
+```js
+// gatsby-config.js
+module.exports = {
+  plugins: ['gatsby-theme-docz'],
+}
 ```
 
-> **Note**: `react` and `react-dom` will not be installed automatically. You'll have to install them yourself.
+### Configuration
 
-Next, add some `.mdx` files anywhere in your project:
+Set your config by using `doczrc.js` file ([see all available](https://www.docz.site/docs/project-configuration)) or if you want to set some defaults for your theme, use `options` on plugin definition:
 
-```mdx
+```js
+// gatsby-config.js
+module.exports = {
+  plugins: [
+    {
+      resolve: 'gatsby-theme-docz',
+      options: {
+        /* your custom options */
+      },
+    },
+  ],
+}
+```
+
+### Dark Mode
+
+To set the dark version as default, just set your `doczrc.js` like that:
+
+```js
+// doczrc.js
+export default {
+  themeConfig: {
+    mode: 'dark',
+  },
+}
+```
+
+### Customizing components
+
+Components shadowing is one of the best things included in the new Gatsby theme feature, with it is possible to replace theme files just by creating your own file following a file naming convention.
+
+Example: If you're using our `gatsby-theme-docz` which has a `Header` component located at `src/components/Header/index.js` you can override the component by creating `src/gatsby-theme-docz/components/Header/index.js`. Cool right?
+
+### Adding your logo
+
+So, now that you know about how component shadowing works on Gatsby themes, if you don't want to override the entire `<Header>` component but just change your logo inside it, your can shadow the `<Logo>` component used in the header just by creating your own at `src/gatsby-theme-docz/components/Logo/index.js`
+
+```js
+// src/gatsby-theme-docz/components/Logo/index.js
+import React from 'react'
+import logo from './logo.svg'
+
+export const Logo = () => <img src={logo} alt="That's my logo" />
+```
+
+Easy, right?
+
+### Creating your own Docz theme
+
+One of the coolest thing of Docz is that you can create your own theme if you want from scratch and use all benefits of it. The oldest way to acomplish that is by using the `theme` property inside the `doczrc.js` file. Now, if you want to create your own theme, just create a file located at `src/gatsby-theme-docz/index.js`
+
+```js
+import React from 'react'
+import { theme, useConfig, ComponentsProvider } from 'docz'
+import { ThemeProvider } from 'emotion-theming'
+import baseComponents from 'gatsby-theme-docz/src/components'
+
+import { Menu } from './MyBeautifulMenu'
+
+const componentsMap = {
+  ...baseComponents,
+  /* your custom components */,
+}
+
+const Theme = ({ children }) => {
+  const config = useConfig()
+  return (
+    <ThemeProvider theme={config}>
+      <Menu />
+      <ComponentsProvider components={baseComponents}>
+        {children}
+      </ComponentsProvider>
+    </ThemeProvider>
+  )
+}
+
+const themeConfig = {
+  colors: {
+    primary: 'tomato',
+    secondary: 'khaki',
+    gray: 'lightslategray',
+  },
+}
+
+export default theme(themeConfig)(Theme)
+```
+
+### Wrapping the entire app
+
+Sometime you need to wrap your entire application in order to add some `Provider` or just to load some script. You can do this easily inside our theme by creating a file located at `src/gatsby-theme-docz/wrapper.js`
+
+```js
+// src/gatsby-theme-docz/index.js
+import React from 'react'
+
+export default ({ children }) => (
+  <div>
+    <h1>My custom wrapper</h1>
+    {children}
+  </div>
+)
+```
+
+## Theme UI integrated
+
+As default theme system we are using the [Theme-UI](https://theme-ui.com/), it's a library for build consistent, themeable React apps based on constraint-based design principles.
+
+You can modify our based theme creating your own style, combining these modifications with the component shadowing and creating a totally different documentation.
+
+Check our [base theme object](https://github.com/pedronauck/docz/blob/feat/gatsby/core/gatsby-theme-docz/src/theme/index.js) to see the properties.
+
+To create your own theme definition use the `doczrc.js` and set your properties in the `themeConfig` like that:
+
+```js
+// doczrc.js
+export default {
+  themeConfig: {
+    colors: {
+      header: {
+        bg: 'tomato',
+      },
+    },
+  },
+}
+```
+
+Or, to create your own theme it's easy, just create this file in the root of your project: `src/gatsby-theme-docz/theme/index.js`.
+
+```js
+import baseTheme from 'gatsby-theme-docz/src/theme'
+import { merge } from 'lodash/fp'
+
+export default merge(baseTheme, {
+  colors: {
+    header: {
+      bg: 'tomato',
+    },
+  },
+})
+```
+
+### Changing code highlight
+
+Both code highlights shortcodes and the `<Playground>` component are using [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer) to highlight the code. If you want to modify and use another PrismJS theme, you can do that just passing a `prismTheme` property for your theme.
+
+```js
+// doczrc.js
+import myCustomPrismTheme from './my-prism-theme'
+
+export default {
+  themeConfig: {
+    prismTheme: myCustomPrismTheme,
+  },
+}
+```
+
+Or you want to have different themes for `light` and `dark` color mode, you can change the `prism` default property like that:
+
+```js
+// doczrc.js
+import customLightTheme from './my-light-theme'
+import customDarkTheme from './my-dark-theme'
+
+export default {
+  themeConfig: {
+    prism: {
+      light: customLightTheme,
+      dark: customDarkTheme,
+    },
+  },
+}
+```
+
+### Adding component shortcodes
+
+You can add shortcodes to your docs site which can be used throughout
+your docs pages by extending the components passed to MDXProvider. You
+can do this by using component shadowing and creating the following file
+in the root of your project: `src/gatsby-theme-docz/components/index.js`.
+
+#### Example `components.js`
+
+```js
+import baseComponents from 'gatsby-theme-documentation/src/components'
+import MyCustomH1 from '../components/my-custom-h1'
+
+export default {
+  ...baseComponents,
+  h1: MyCustomH1,
+}
+```
+
+## Getting data
+
+Using our Gatsby Theme you can enjoy all our hooks to get data for your pages and also get data from Gatsby. So, you can create isolated pages on Gatsby using gatsby pages and get data from Docz or maybe pass data for your Docz documents using source from gatsby.
+
+Imagine, that you have your home page inside `/pages` and you want to show all documents parsed from Docz. You can easy get this by doing:
+
+```js
+import React from 'react'
+import { useDocs } from 'docz'
+
+const Home = () => {
+  const docs = useDocs()
+  return <div>{/* my coolest home */}</div>
+}
+
+export default Home
+```
+
+Or you can have a mdx document inside Docz that has data from Gatsby too:
+
+```markdown
 ---
-name: Button
-route: /
+name: MyDoc
 ---
 
-import { Playground, Props } from "docz";
-import Button from "./Button";
+import { MyComponentWithSomeData } from './my-component-with-data'
 
-# Button
-
-<Props of={Button} />
-
-## Basic usage
-
-<Playground>
-  <Button type="submit">Click me</Button>
-  <Button>No, click me</Button>
-</Playground>
-
+<MyComponentWithSomeData />
 ```
 
-And a Button component `Button.jsx`:
-
-```typescript
-import React from "react";
-import t from "prop-types";
-
-const Button = ({ children, type }) => <button type={type}>{children}</button>;
-
-Button.propTypes = {
-  /**
-   * This is a pretty good description for this prop
-   * Button type. Learn more about `type` attribute [at MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-type)
-   */
-  type: t.oneOf(["button", "submit", "reset"])
-};
-Button.defaultProps = {
-  type: "button"
-};
-export default Button;
-
-```
-
-Finally, run the Docz development server:
-
-```bash
-$ yarn docz dev
-```
-
-That's it! Now you have some real badass documentation 👊
-
-![](https://cdn-std.dprcdn.net/files/acc_649651/S2YCID)
-
-Any doubt? Check [our docs](http://docz.site) to see more about **Docz**!
-
-## 🤝 &nbsp; Contributions
-
-Contributions, issues and feature requests are very welcome.
-Please make sure to read the [Contributing Guide](/CONTRIBUTING.md) before making a pull request.
-
-## 💪🏻 &nbsp; Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-
-<a href="https://github.com/pedronauck/docz/graphs/contributors"><img src="https://opencollective.com/docz/contributors.svg?width=890&button=false" /></a>
-
-## 💭 &nbsp; Needing Help?
-
-If you need some help you can chat with us on [our Spectrum Community](https://spectrum.chat/docz), we have a great team who would be more than happy to help you:
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-| [<img src="https://avatars3.githubusercontent.com/u/2029172?v=4" width="60px;" alt="Pedro Nauck"/><br /><sub><b>Pedro Nauck</b></sub>](https://github.com/pedronauck)<br />[💻](https://github.com/pedronauck/docz/commits?author=pedronauck "Code") [📖](https://github.com/pedronauck/docz/commits?author=pedronauck "Documentation") [🐛](https://github.com/pedronauck/docz/issues?q=author%3Apedronauck "Bug reports") [👀](#review-pedronauck "Reviewed Pull Requests") |
-| :---: |
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+Cool right?
