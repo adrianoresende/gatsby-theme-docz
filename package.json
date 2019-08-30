@@ -1,9 +1,9 @@
 {
   "name": "gatsby-theme-docz",
-  "version": "2.0.0-rc.8",
-  "description": "Gatsby theme created to use Docz",
+  "version": "0.1",
+  "description": "Gatsby theme forked to use Docz",
   "license": "MIT",
-  "author": "Pedro Nauck (pedronauck@gmail.com)",
+  "author": "Adriano Resende (adrianorbs@gmail.com)",
   "keywords": [
     "gatsby",
     "gatsby-theme",
